@@ -1,40 +1,23 @@
-# Python environment with a requirements.txt
+# Welcome to Analyticon 2025
+
+<center>
+<img 
+  src="/assets/analyticon_logo.png" 
+  alt="Analyticon Logo 2025" 
+  style="width:auto;height:auto;"
+> 
+
+
+# About the Workshop
+**Abstract**: 
+
+Causal inference is a fundamental problem in many fields, including economics, epidemiology, and social sciences, where understanding the causal relationships between variables is crucial for informed decision-making. In many cases, randomized controlled trials (RCTs) are not feasible or ethical, and researchers must rely on observational data to draw causal conclusions. However, observational data are often confounded by unmeasured variables, making it challenging to separate causal from non-causal relationships. In this training, we will introduce the potential outcomes framework, which provides a foundation for causal inference. We will then discuss several popular methods for estimating causal effects, including propensity score matching, inverse propensity scoring, outcome regression, and double machine learning. These methods aim to remove confounding bias and identify the causal effect of a treatment or intervention on an outcome variable. We will discuss the strengths and limitations of each method, as well as provide hands-on training to their applications in real-world scenarios.
+
+## Launching Workshop Materials
+Click on the Binder button or link below to build your personal copy of the workshop material and code along with us!
 
 [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/requirements/HEAD)
 
-A Binder-compatible repo with a `requirements.txt` file.
-
 Access this Binder at the following URL
 
-http://mybinder.org/v2/gh/binder-examples/requirements/HEAD
-
-## Notes
-The `requirements.txt` file should list all Python libraries that your notebooks
-depend on, and they will be installed using:
-
-```
-pip install -r requirements.txt
-```
-
-The base Binder image contains no extra dependencies, so be as
-explicit as possible in defining the packages that you need. This includes
-specifying explicit versions wherever possible.
-
-If you do specify strict versions, it is important to do so for *all*
-your dependencies, not just direct dependencies.
-Strictly specifying only some dependencies is a recipe for environments
-breaking over time.
-
-If the root requirements.txt for some reason doesn't align with the dependencies 
-you need in your Binder environment, you can create a `requirements.txt` file in 
-a `.binder` folder that will take precedent!
-
-[pip-compile](https://github.com/jazzband/pip-tools/) is a handy
-tool for combining loosely specified dependencies with a fully frozen environment.
-You write a requirements.in with just the dependencies you need
-and pip-compile will generate a requirements.txt with all the strict packages and versions that would come from installing that package right now.
-That way, you only need to specify what you actually know you need,
-but you also get a snapshot of your environment.
-
-In this example we include the library `seaborn` which will be installed in
-the environment, and our notebook uses it to plot a figure.
+[http://mybinder.org/v2/gh/binder-examples/requirements/HEAD](http://mybinder.org/v2/gh/binder-examples/requirements/HEAD)
