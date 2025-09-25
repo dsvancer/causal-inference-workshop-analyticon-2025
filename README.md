@@ -16,8 +16,9 @@ Causal inference is a fundamental problem in many fields, including economics, e
 ## Launching Workshop Materials
 Click on the Binder button or link below to build your personal copy of the workshop material and code along with us!
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/requirements/HEAD)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dsvancer/causal-inference-workshop-analyticon-2025/main)
 
-Access this Binder at the following URL
 
-[http://mybinder.org/v2/gh/binder-examples/requirements/HEAD](http://mybinder.org/v2/gh/binder-examples/requirements/HEAD)
+Access the material at the following URL
+
+[https://mybinder.org/v2/gh/dsvancer/causal-inference-workshop-analyticon-2025/main](https://mybinder.org/v2/gh/dsvancer/causal-inference-workshop-analyticon-2025/main)
